@@ -155,6 +155,25 @@
     box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.3)
 }
 
+.scroll-thin {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(127, 108, 224, 1) transparent; /* Firefox */
+}
+
+.scroll-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(127, 108, 224, 1); /* Thumb color */
+  border-radius: 6px;
+}
+
+.scroll-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
 #root {
     max-width: 100%;
     margin: 0 auto;

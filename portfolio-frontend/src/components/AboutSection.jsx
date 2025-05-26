@@ -15,13 +15,13 @@ export const AboutSection = () => {
                         create efficient systems using modern technologies.
                     </p>
 
-                    <p  className="text-muted-foreground">
-                        I am passionate about creating efficient solutions to 
-                        solve complex problems, I'm always on the journey to 
-                        learn more about upcoming technology and changes in the 
+                    <p className="text-muted-foreground">
+                        I am passionate about creating efficient solutions to
+                        solve complex problems, I'm always on the journey to
+                        learn more about upcoming technology and changes in the
                         ever evolving world of tech.
                     </p>
-                    
+
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">
@@ -39,9 +39,9 @@ export const AboutSection = () => {
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Code className="h-6 w-6 text-primary"/>
+                                <Code className="h-6 w-6 text-primary" />
                             </div>
-                            
+
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> API development </h4>
                                 <p className="text-muted-foreground">
@@ -52,38 +52,33 @@ export const AboutSection = () => {
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
-                         <div className="flex items-start gap-4">
+                        <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Database className="h-6 w-6 text-primary"/>
+                                <Database className="h-6 w-6 text-primary" />
                             </div>
-                            
+
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> API development </h4>
                                 <p className="text-muted-foreground">
                                     Create and Maintain relational and Non-relational Databases.
                                 </p>
                             </div>
-
-
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
-                         <div className="flex items-start gap-4">
+                        <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Bug className="h-6 w-6 text-primary"/>
+                                <Bug className="h-6 w-6 text-primary" />
                             </div>
-                            
+
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> Testing & Debugging </h4>
                                 <p className="text-muted-foreground">
-                                     Optimize code performance and maintain clean, scalable systems.
+                                    Optimize code performance and maintain clean, scalable systems.
                                 </p>
                             </div>
-
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
